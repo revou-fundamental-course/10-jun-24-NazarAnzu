@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Mengatur konten ke tengah secara horizontal */
+  align-items: center; /* Mengatur konten ke tengah secara vertikal */
+  height: 100vh; /* Mengatur tinggi viewport penuh */
+  background-color: #f5f5f5; /* Warna latar belakang untuk kontras */
+}
+
+.container {
+  background-color: #fff; /* Warna latar belakang putih untuk konten */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  text-align: left; /* Menyelaraskan teks ke kiri dalam container */
+}
+
+h1 {
+  text-align: center; /* Mengatur judul ke tengah */
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end; /* Mengatur tombol ke kanan */
+}
+
+label {
+  margin: 5px 0;
+  display: block;
+  font-size: 1em; /* Ukuran font untuk label */
+  font-weight: bold; /* Membuat teks lebih tebal */
+}
+
+input,
+textarea {
+  font-size: 1.3em; /* Membuat input text dan textarea lebih besar */
+  padding: 10px; /* Menambah padding untuk input text dan textarea */
+  width: 100%; /* Menambah lebar input text dan textarea */
+  box-sizing: border-box; /* Menghindari meluapnya konten */
+}
+
+textarea {
+  resize: none; /* Menonaktifkan kemampuan untuk mengubah ukuran textarea */
+  height: 100px; /* Atur tinggi textarea sesuai kebutuhan */
+}
+
+#explanation {
+  margin-top: 20px;
+}
+
+#explanation h2 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px; /* Menambah margin atas untuk pemisahan */
+  border-bottom: 2px solid #000; /* Menambahkan garis hitam di bawah */
+  padding-bottom: 5px; /* Menambah jarak antara teks dan garis */
+}
+
+#explanation p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+#explanation em {
+  font-style: italic;
+}
+
+#explanation sup,
+#explanation sub {
+  font-size: 0.8em;
+}
